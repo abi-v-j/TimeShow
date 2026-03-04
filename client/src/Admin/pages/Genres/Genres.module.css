@@ -1,0 +1,161 @@
+.container {
+  flex-grow: 1;
+  height: 200px;
+  background-color: var(--card-bg);
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;  border-radius: 10px;
+  margin-top: 20px;
+  padding: 20px;
+}
+
+/* Title */
+.h2 {
+  font-size: 30px;
+  color: var(--primary-color);
+  margin-bottom: 20px;
+}
+
+/* Input Row */
+.inputbox {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin: 20px 50px;
+}
+
+/* Label */
+.inputbox label {
+  font-size: 18px;
+  width: 80px;
+  color: var(--text-color);
+}
+
+/* Input */
+.inputbox input {
+  flex: 1;
+  height: 40px;
+  border-radius: 6px;
+  border: 1px solid var(--border-color);
+  background-color: var(--bg-secondary);
+  color: var(--text-color);
+  padding: 6px 10px;
+}
+
+.inputbox input::placeholder {
+  color: var(--text-muted);
+}
+
+.button {
+  display: flex;
+  gap: 18px;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 20px 50px;
+}
+
+
+.btn {
+  background-color: var(--primary-color);
+  color: #ffffff;
+  padding: 10px 22px;
+  border-radius: 7px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  width: 300px;
+  transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+.btn:hover {
+  background-color: var(--primary-hover);
+  transform: translateY(-1px);
+}
+/* Table Wrapper */
+.tableWrapper {
+  margin-top: 30px;
+}
+
+/* Table */
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: var(--bg-secondary);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+/* Header */
+.table thead {
+  background-color: rgba(255, 255, 255, 0.06);
+}
+
+.table th {
+  text-align: left;
+  padding: 14px 16px;
+  font-size: 15px;
+  color: var(--text-color);
+}
+
+/* Rows */
+.table td {
+  padding: 14px 16px;
+  font-size: 14px;
+  color: var(--text-color);
+  border-top: 1px solid var(--border-color);
+}
+
+/* Empty State */
+.empty {
+  text-align: center;
+  padding: 30px;
+  color: var(--text-muted);
+  font-style: italic;
+}
+
+/* Action Buttons */
+.actionBtn {
+  background: transparent;
+  border: 1px solid var(--primary-color);
+  color: var(--primary-color);
+  padding: 6px 14px;
+  border-radius: 6px;
+  font-size: 13px;
+  cursor: pointer;
+  margin-right: 8px;
+  transition: 0.2s;
+}
+
+.actionBtn:hover {
+  background-color: var(--primary-color);
+  color: #fff;
+}
+.statCard {
+    background: rgba(255, 255, 255, 0.03);
+    padding: 1.8rem;
+    border-radius: 24px;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    transition: 0.3s;
+    position: relative;
+    overflow: hidden;
+    width: 250px;
+}
+.statCard:hover {
+    background: rgba(255, 255, 255, 0.05);
+    transform: translateY(-5px);
+    border-color: rgba(255, 77, 109, 0.3);
+}
+
+.statCard h3 {
+    margin: 0;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    color: rgba(255, 255, 255, 0.4);
+}
+
+.statCard p {
+    margin: 12px 0 0;
+    font-size: 2.2rem;
+    font-weight: 600;
+    color: #fff;
+}
+

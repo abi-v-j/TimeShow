@@ -1,0 +1,96 @@
+.Sidebar {
+  flex: 1.3;
+  height: 90vh;
+  width: 240px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+
+  /* Theme-aware shadow */
+  box-shadow: var(--shadow);
+}
+
+/* ===== TOP / LOGO ===== */
+.Top {
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: bold;
+  color: var(--primary-color);
+}
+
+/* ===== MENU ===== */
+.menu {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 20px;
+}
+
+.menuitem {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px;
+  border-radius: 8px;
+  text-decoration: none;
+  color: var(--text-muted);
+  font-size: 15px;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+/* Hover */
+.menuitem:hover {
+  background-color: var(--primary-soft);
+  color: var(--primary-color);
+}
+
+/* Active */
+.menuitem.active {
+  background-color: var(--primary-color);
+  color: #ffffff;
+  font-weight: 600;
+}
+
+/* ===== ICON ===== */
+.icon {
+  font-size: 20px;
+  color: inherit;
+}
+
+/* ===== COLLAPSE / MOBILE ===== */
+.open {
+  width: 200px;
+}
+
+.menuButton {
+  padding: 10px;
+  cursor: pointer;
+  color: var(--text-color);
+}
+
+.menuList {
+  margin-top: 20px;
+}
+
+.menuItem {
+  display: flex;
+  align-items: center;
+  padding: 12px;
+  text-decoration: none;
+  color: var(--text-muted);
+  gap: 10px;
+  transition: 0.2s;
+}
+
+.menuItem:hover {
+  background-color: var(--primary-soft);
+  color: var(--primary-color);
+}

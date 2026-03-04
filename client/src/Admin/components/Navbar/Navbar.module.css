@@ -1,0 +1,87 @@
+.Navbar {
+  width: 100%;
+  height: 70px;
+  background: var(--navbar-bg);
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;  border-radius: 10px;
+  border-radius: 5px;
+}
+.NavbarContainer {
+  height: 100%;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* ===== SEARCH ===== */
+.Search {
+  display: flex;
+  align-items: center;
+  border: 1px solid var(--border-color);
+  padding: 6px 10px;
+  border-radius: 6px;
+  background-color: var(--card-bg);
+}
+
+.Search input {
+  border: none;
+  outline: none;
+  background: transparent;
+  color: var(--text-color);
+}
+
+.Search input::placeholder {
+  color: var(--text-muted);
+}
+
+/* ===== ITEMS ===== */
+.items {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.item {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+  color: var(--text-muted);
+}
+
+.item:hover {
+  color: var(--primary-color);
+}
+
+/* ===== ICON ===== */
+.icon {
+  font-size: 20px;
+  color: inherit;
+}
+
+/* ===== NOTIFICATION COUNTER ===== */
+.counter {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  background-color: var(--primary-color);
+  border-radius: 50%;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 10px;
+  font-weight: bold;
+  top: -6px;
+  right: -6px;
+}
+
+/* ===== PROFILE IMAGE ===== */
+.profileImg {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid var(--primary-color);
+}

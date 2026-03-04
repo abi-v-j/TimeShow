@@ -1,0 +1,235 @@
+.container {
+  /* max-width: 100vh; */
+  margin: 40px auto;
+  padding: 30px;
+  background: #1f1f1f;
+  color: white;
+  border-radius: 10px;
+}
+
+.formGroup {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 6px;
+  color: #ffffff;
+}
+
+input, select {
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+  background: #2c2c2c;
+  color: white;
+}
+
+.btn {
+  width: 100%;
+  padding: 12px;
+  background: #ff4d6d;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+/* Table Title */
+.tableTitle {
+  margin-top: 40px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+/* Table Wrapper */
+.tableWrapper {
+  margin-top: 20px;
+  background: #1f1f1f;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+/* Table */
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #262626;
+}
+
+/* Header */
+.table thead {
+  background: rgba(255, 255, 255, 0.06);
+}
+
+.table th {
+  text-align: left;
+  padding: 14px 16px;
+  font-size: 14px;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+/* Body Rows */
+.table td {
+  padding: 14px 16px;
+  font-size: 14px;
+  color: #d1d5db;
+  border-top: 1px solid #333;
+}
+
+/* Hover Effect */
+.table tbody tr:hover {
+  background-color: rgba(255, 77, 109, 0.08);
+  transition: 0.2s;
+}
+
+/* Empty State */
+.empty {
+  text-align: center;
+  padding: 30px;
+  color: #9ca3af;
+  font-style: italic;
+}
+
+/* Delete Button */
+.deleteBtn {
+  background: transparent;
+  border: 1px solid #ff4d6d;
+  color: #ff4d6d;
+  padding: 6px 14px;
+  border-radius: 6px;
+  font-size: 13px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.deleteBtn:hover {
+  background: #ff4d6d;
+  color: #ffffff;
+}
+.aisle {
+    width: 30px;
+}
+/* ========================= */
+/* 🎬 PREVIEW SECTION */
+/* ========================= */
+
+.previewWrapper {
+    margin-top: 40px;
+    padding: 25px;
+    background: #111;
+    border-radius: 12px;
+}
+
+.previewTitle {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #fff;
+    font-weight: 600;
+}
+
+/* 🎬 Screen Bar */
+.screenBar {
+    width: 60%;
+    height: 8px;
+    margin: 0 auto 30px auto;
+    background: linear-gradient(to right, #ff4d6d, #ff1e4d);
+    border-radius: 20px;
+}
+
+/* Row Container */
+.previewRow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 8px;
+}
+
+/* Row Label (A, B, C) */
+.rowLabel {
+    width: 25px;
+    color: #bbb;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Seat */
+.previewSeat {
+    width: 22px;
+    height: 22px;
+    background-color: #ff4d6d;
+    margin: 4px;
+    border-radius: 5px;
+    transition: 0.2s ease;
+}
+
+.previewSeat:hover {
+    transform: scale(1.1);
+}
+
+/* Aisle Gap */
+.aisleGap {
+    width: 30px;
+}
+/* Table Wrapper */
+.tableWrapper {
+  margin-top: 30px;
+}
+
+/* Table */
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: var(--bg-secondary);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+/* Header */
+.table thead {
+  background-color: rgba(255, 255, 255, 0.06);
+}
+
+.table th {
+  text-align: left;
+  padding: 14px 16px;
+  font-size: 15px;
+  color: var(--text-color);
+}
+
+/* Rows */
+.table td {
+  padding: 14px 16px;
+  font-size: 14px;
+  color: var(--text-color);
+  border-top: 1px solid var(--border-color);
+}
+
+/* Empty State */
+.empty {
+  text-align: center;
+  padding: 30px;
+  color: var(--text-muted);
+  font-style: italic;
+}
+
+/* Action Buttons */
+.actionBtn {
+  background: transparent;
+  border: 1px solid var(--primary-color);
+  color: var(--primary-color);
+  padding: 6px 14px;
+  border-radius: 6px;
+  font-size: 13px;
+  cursor: pointer;
+  margin-right: 8px;
+  transition: 0.2s;
+}
+
+.actionBtn:hover {
+  background-color: var(--primary-color);
+  color: #fff;
+}
